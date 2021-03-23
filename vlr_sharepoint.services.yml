@@ -1,0 +1,4 @@
+services:
+  vlr_sharepoint.sharepoint_helper:
+    class: Drupal\vlr_sharepoint\SharepointHelper
+    arguments: ['@cache.default', '@key.repository']
